@@ -21,7 +21,7 @@ run_master_tasks=false
 # Don't setup the rh-sso instance for user applications
 # See group_vars/all/common.yml & relevant SOP for more info when 
 # setting this to false.
-user_rhsso=false
+user_rhsso=true
 
 # Don't setup the datasync (yet) on managed instance
-datasync=false
+datasync=true
